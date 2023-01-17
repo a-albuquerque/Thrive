@@ -1,0 +1,24 @@
+For the journey and quest API:
+
+localhost:8000/api/journeys: - GET request gives u all the journeys in a list
+- POST request allows u to create a journey
+
+localhost:8000/api/journeys/<id>:
+- GET request gives u the journey with id <id>
+- PUT request allows u to update the journey
+- DELETE request is obvious
+
+
+localhost:8000/api/quests: - GET request gives u all the quests in a list
+- POST request allows u to create a quest
+
+localhost:8000/api/quests/<id>:
+- GET request gives u the quest with id <id>
+- PUT request allows u to update the quest
+- DELETE request is obvious
+
+localhost:8000/api/journeys/<j_id>/add-quest?id=<q_id>
+- GET request allows u to append the quest with id <q_id> to the list of quests owned by the journey with id <j_id>
+
+localhost:8000/api/journeys/<j_id>/remove-quest?id=<q_id>
+- GET request does the same shit as the last one except it's to remove the quest}

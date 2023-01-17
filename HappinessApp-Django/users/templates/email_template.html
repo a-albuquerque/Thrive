@@ -1,0 +1,12 @@
+{% autoescape off %}
+Hello,
+
+You are receiving this email because there is an attempt to register an account for Thrive with this current email. 
+If you registered for an account, please click on the link to confirm your registration. Otherwise, please ignore. 
+http://{{ domain }}/api/auth/emailVerification/{{ uid }}/{{ token }}  
+
+Thanks for using our app! 
+
+The Bellwoods team
+
+{% endautoescape %}

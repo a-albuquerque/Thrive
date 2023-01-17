@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "346983328244",
+    "project_id": "thrive-app-89cb3",
+    "storage_bucket": "thrive-app-89cb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346983328244:android:88478d591a2d9bdd07b1a1",
+        "android_client_info": {
+          "package_name": "com.bellwoods.HappinessApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346983328244-710lds72ibbennlj6n7nt90vl7mv0842.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkYJep4jwDz6TRrKhsOpHgvptC5dLrBz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346983328244-710lds72ibbennlj6n7nt90vl7mv0842.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
